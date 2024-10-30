@@ -2,7 +2,7 @@
 
 ## Overview
 **This project is the implementation and data of CEM3DMG, which is a framework for generating three-dimensional microstructures of cement from 2D images.**
-![image](https://github.com/DipsyCap/Test/blob/main/CEMDMG.jpg)
+![image](https://github.com/NBICLAB/CEM3DMG/blob/main/CEMDMG.jpg)
 
 ## Configuration requirements:
 * Linux or Windows
@@ -45,5 +45,4 @@ python ./code/generate3D.py
 * **tscale**: The image crop size needs to be determined based on the given 2D image and the crop size should be representative.
 
 ## Results
-![image](https://github.com/DipsyCap/Test/blob/main/3DVIS.jpg)
-
+![image](https://github.com/NBICLAB/CEM3DMG/blob/main/3DVIS.jpg)
