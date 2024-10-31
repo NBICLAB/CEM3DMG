@@ -35,7 +35,7 @@
 ## Usage Example
 To run the code you need to get the pytorch VGG19-Model from the bethge lab using the script download_models.sh from https://github.com/leongatys/PytorchNeuralStyleTransfer
 ### Training CEM3DMG
-python ./code/Train.py --img=Example.bmp --direction_w=32  --tscale=200 --cha=8 --iter_train=50000
+python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
 ### Using CEM3DMG
 python ./code/generate3D.py
 
