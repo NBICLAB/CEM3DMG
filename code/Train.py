@@ -26,7 +26,7 @@ parse.add_argument('--gp_lambda', type=float, default=8, help='gradient penalty 
 parse.add_argument('--gamma', type=float, help='scheduler gamma', default=0.9)
 parse.add_argument('--batch_size', default=1, type=int, help='generator batch_size')
 parse.add_argument('--batch_slice', default=16, type=int, help='slice batch_size')
-parse.add_argument('--direction_w', default=48, type=int, help='size of 3D image on training direction,multiples of 8')
+parse.add_argument('--direction_w', default=32, type=int, help='size of 3D image on training direction,multiples of 8')
 parse.add_argument('--cuda', default='cuda:0', help='cuda number')
 parse.add_argument('--pre', default=False, help='yes or no fix pre-training parameters')
 parse.add_argument('--is_check', default=False, help='yes or no use previous checkpoint train')
