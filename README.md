@@ -35,6 +35,7 @@
 ## Usage Example
 ### Training CEM3DMG
 python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
+python ./code/Train.py --img=SampleB.bmp --direction_w=32  --tscale=304 --cha=32 --iter_train=100000
 ### Using CEM3DMG
 python ./code/generate3D.py
 
