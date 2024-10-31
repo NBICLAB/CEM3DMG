@@ -37,7 +37,7 @@
 * python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
 * python ./code/Train.py --img=SampleB.bmp --direction_w=32  --tscale=304 --cha=32 --iter_train=100000
 ### Using CEM3DMG
-python ./code/generate3D.py
+* python ./code/generate3D.py
 
 To run the code you need to get the pytorch VGG19-Model from the bethge lab using the script download_models.sh from https://github.com/leongatys/PytorchNeuralStyleTransfer
 
