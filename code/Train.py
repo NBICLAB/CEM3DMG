@@ -132,7 +132,7 @@ if __name__ == '__main__':
     tt, t = opt.tscale, opt.cha
     h_rand = [tt-t*4, tt-t*3, tt-t*2, tt-t, tt]
     time_now = datetime.datetime.now() 
-    print('start',time_now)
+    # print('start',time_now)
     strat = 0
     if opt.is_check == True:
         filepath = 'checkpoint/XXXX_checkpoint.pth'
@@ -271,7 +271,7 @@ if __name__ == '__main__':
 
         # train process show results
         if (iter_num + 1) % opt.iter_slice == 0:
-            print(datetime.datetime.now())
+            # print(datetime.datetime.now())
             net_G.eval()
             with torch.no_grad():
                 w = 8
