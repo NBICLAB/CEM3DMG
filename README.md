@@ -42,6 +42,6 @@
 To run the code you need to get the pytorch VGG19-Model from the bethge lab using the script download_models.sh from https://github.com/leongatys/PytorchNeuralStyleTransfer
 
 **Suggestions for some hyperparameters: training iterations (iter_train) and the image cropping size (tscale) are critical in the training process of CEM3DMG**
-* **iter_train**: The training iteration is determined by the generation effect and is usually set to 50,000-120,000.
+* **iter_train**: The training iteration is usually set to 50,000-120,000.
 * **tscale**: The image crop size needs to be determined based on the given 2D image and the crop size should be representative.
 
