@@ -33,11 +33,12 @@
 * saved checkpoints during training
 
 ## Usage Example
-To run the code you need to get the pytorch VGG19-Model from the bethge lab using the script download_models.sh from https://github.com/leongatys/PytorchNeuralStyleTransfer
 ### Training CEM3DMG
 python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
 ### Using CEM3DMG
 python ./code/generate3D.py
+
+To run the code you need to get the pytorch VGG19-Model from the bethge lab using the script download_models.sh from https://github.com/leongatys/PytorchNeuralStyleTransfer
 
 **Suggestions for some hyperparameters: training iterations (iter_train) and the image cropping size (tscale) are critical in the training process of CEM3DMG**
 * **iter_train**: The training iteration is determined by the generation effect and is usually set to 50,000-120,000.
