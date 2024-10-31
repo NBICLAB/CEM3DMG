@@ -34,12 +34,12 @@ parse.add_argument('--is_check', default=False, help='yes or no use previous che
 
 # tscale and cha are not fixed, it needs to be set according to the size of the examples
 parse.add_argument('--tscale', default=304, type=int, help='max crop size, multiples of 8')
-parse.add_argument('--cha', default=16, type=int, help='interval of multi cropped size, multiples of 8')
+parse.add_argument('--cha', default=32, type=int, help='interval of multi cropped size, multiples of 8')
 
 parse.add_argument('--vggstep', default=50000, type=int, help='perceptual loss')
 parse.add_argument('--vggk', default=0.01, type=float, help='the coefficient of perceptual loss')
 
-parse.add_argument('--iter_train', default=90000, type=int, help='total train iter, 50000-120000')
+parse.add_argument('--iter_train', default=100000, type=int, help='total train iter, 50000-120000')
 parse.add_argument('--iter_slice', default=100, type=int, help='every num save train slice')
 parse.add_argument('--iter_check', default=10000, type=int, help='every num save checkpoint')
 parse.add_argument('--iter_model', default=1000, type=int, help='every num save model')
