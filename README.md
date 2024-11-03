@@ -21,7 +21,7 @@
 ### image
 * training data
 ### data
-* real 2D BSE images
+* real 2D images
 * generated 3D microstructure images
 ### model
 * saved models
