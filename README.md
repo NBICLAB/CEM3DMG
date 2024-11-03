@@ -33,12 +33,12 @@
 * saved checkpoints during training
 
 ## Usage Example
+### To run the code you need to get the pytorch VGG19-Model from the bethge lab. This project already contains the VGG-19 model. You only need to unzip vgg_conv.zip in the code folder to get the VGG-19 pre-trained model.
 ### Training CEM3DMG
 * python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
 * python ./code/Train.py --img=SampleB.bmp --direction_w=32  --tscale=304 --cha=32 --iter_train=100000
 ### Using CEM3DMG
 * python ./code/generate3D.py
-
 
 **Suggestions for some hyperparameters: training iterations (iter_train) and the image cropping size (tscale) are critical in the training process of CEM3DMG**
 * **iter_train**: The training iteration is usually set to 50,000-120,000.
