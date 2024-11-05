@@ -35,8 +35,8 @@
 ## Usage Example
 To run the code you need to get the pytorch VGG19-Model. This project already contains the VGG-19 model. You only need to unzip vgg_conv.zip in the code folder to get the VGG-19 pre-trained model. Note: The pytorch VGG19-Model from the paper:"Very Deep Convolutional Networks for Large-Scale Image Recognition"
 ### Training CEM3DMG
-* python ./code/Train.py --img=Example.bmp --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
-* python ./code/Train.py --img=SampleB.bmp --direction_w=32  --tscale=304 --cha=32 --iter_train=100000
+* python ./code/Train.py --img='Example.bmp' --direction_w=48  --tscale=200 --cha=8 --iter_train=50000
+* python ./code/Train.py --img='SampleB.bmp' --direction_w=32  --tscale=304 --cha=32 --iter_train=100000
 ### Using CEM3DMG
 * python ./code/generate3D.py
 
