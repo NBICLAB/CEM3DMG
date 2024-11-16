@@ -1,8 +1,20 @@
 # CEM3DMG
-
 ## Overview
 **This project is the implementation and data of CEM3DMG, which is a framework for generating three-dimensional microstructures of cement from 2D images.**
-
+**If your publication utilises our project, please cite our paper**
+```
+@article{ZHAO2025107726,
+title = {3D microstructural generation from 2D images of cement paste using generative adversarial networks},
+journal = {Cement and Concrete Research},
+volume = {187},
+pages = {107726},
+year = {2025},
+issn = {0008-8846},
+doi = {https://doi.org/10.1016/j.cemconres.2024.107726},
+url = {https://www.sciencedirect.com/science/article/pii/S0008884624003077},
+author = {Xin Zhao and Lin Wang and Qinfei Li and Heng Chen and Shuangrong Liu and Pengkun Hou and Jiayuan Ye and Yan Pei and Xu Wu and Jianfeng Yuan and Haozhong Gao and Bo Yang},
+}
+```
 ## Configuration requirements:
 * Linux or Windows
 * NVIDIA GPU (Recommended A100 or A800) 
