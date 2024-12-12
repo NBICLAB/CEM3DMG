@@ -9,9 +9,7 @@ journal = {Cement and Concrete Research},
 volume = {187},
 pages = {107726},
 year = {2025},
-issn = {0008-8846},
 doi = {https://doi.org/10.1016/j.cemconres.2024.107726},
-url = {https://www.sciencedirect.com/science/article/pii/S0008884624003077},
 author = {Xin Zhao and Lin Wang and Qinfei Li and Heng Chen and Shuangrong Liu and Pengkun Hou and Jiayuan Ye and Yan Pei and Xu Wu and Jianfeng Yuan and Haozhong Gao and Bo Yang},
 }
 ```
